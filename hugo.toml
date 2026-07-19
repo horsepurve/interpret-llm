@@ -1,6 +1,6 @@
-baseURL = 'https://yourusername.github.io/'
+baseURL = 'https://horsepurve.github.io/interpret-llm/'
 languageCode = 'en-us'
-title = 'The Science of AI'
+title = 'Interpret LLM'
 theme = 'PaperMod'
 
 [params]

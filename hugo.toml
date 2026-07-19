@@ -1,0 +1,36 @@
+baseURL = 'https://yourusername.github.io/'
+languageCode = 'en-us'
+title = 'The Science of AI'
+theme = 'PaperMod'
+
+[params]
+env = "production"
+title = "Interpret LLM"
+description = "Understanding Large Language Models and AI"
+defaultTheme = "auto" # Switches automatically based on OS preferences
+showReadingTime = true
+showShareButtons = false
+showPostNavLinks = true
+
+[params.homeInfoParams]
+Title = "Geometric Interpretability of Large Language Models"
+Content = "Understanding Large Language Models and Mechanistic Interpretability from a Geometric Standpoint."
+
+[[menu.main]]
+name = "Archive"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]

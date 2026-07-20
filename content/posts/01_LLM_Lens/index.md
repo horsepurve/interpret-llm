@@ -26,7 +26,7 @@ Like any deep neural network, an LLM has many layers, and each layer produces a 
 {{< figure 
     src="fig_lens/LLM_Lenses.png" 
     alt="LLM Lenses architectural overview" 
-    link="fig_lens/" 
+    link="fig_lens//LLM_Lenses.png" 
     target="_blank"
     class="center"
     title="Figure 1" 
@@ -50,7 +50,7 @@ To see why these two seemingly unrelated ideas — decoding hidden states, and h
 {{< figure 
     src="fig_piecewise/piecewiselinear.jpg" 
     alt="The exact piecewise-linear space partitioning of a simple neural network" 
-    link="fig_piecewise/" 
+    link="fig_piecewise/piecewiselinear.jpg" 
     target="_blank"
     class="center"
     title="Figure 2" 
@@ -70,7 +70,7 @@ Finally, every one of these small regions gets a color — the class it belongs 
 {{< figure 
     src="fig_llmtrees/LLM_static_trees.png" 
     alt="The static trees induced by an LLM" 
-    link="fig_llmtrees/" 
+    link="fig_llmtrees/LLM_static_trees.png" 
     target="_blank"
     class="center"
     title="Figure 3" 
@@ -89,7 +89,7 @@ In Figure 3, the embedding vector for the input token "is" happens to fall insid
 {{< figure 
     src="fig_transport/trasportation.png" 
     alt="The static trees induced by an LLM" 
-    link="fig_transport/" 
+    link="fig_transport/trasportation.png" 
     target="_blank"
     class="center"
     title="Figure 4" 
@@ -127,7 +127,7 @@ In this article, we offer two new angles for evaluating and comparing different 
 {{< figure 
     src="fig_probs/prob_curves.jpg" 
     alt="The static trees induced by an LLM" 
-    link="fig_probs/" 
+    link="fig_probs/prob_curves.jpg" 
     target="_blank"
     class="center"
     title="Figure 5" 
@@ -150,7 +150,7 @@ Existing lenses operate under the assumption that every intermediary representat
 {{< figure 
     src="geometric_lens_paris/geometric_lens_vs_jacobian_lens_paris.jpg" 
     alt="The static trees induced by an LLM" 
-    link="geometric_lens_paris/" 
+    link="geometric_lens_paris/geometric_lens_vs_jacobian_lens_paris.jpg" 
     target="_blank"
     class="center"
     title="Figure 7" 
@@ -181,7 +181,7 @@ In this section, we focus on prompts of the form: "*You are in a fictional world
 {{< figure 
     src="geometric_lens_lyon/geometric_lens_vs_jacobian_lens_lyon.jpg" 
     alt="The static trees induced by an LLM" 
-    link="geometric_lens_lyon/" 
+    link="geometric_lens_lyon/geometric_lens_vs_jacobian_lens_lyon.jpg" 
     target="_blank"
     class="center"
     title="Figure 9" 

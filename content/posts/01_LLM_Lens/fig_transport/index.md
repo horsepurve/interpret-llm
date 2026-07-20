@@ -1,6 +1,7 @@
 ---
 title: "Decomposition of A Multi-Input-Single-Output LLM"
 date: 2026-07-19
+draft: false
 math: true
 summary: "Decomposition of A Multi-Input-Single-Output LLM."
 ---

@@ -12,6 +12,30 @@ showReadingTime = true
 showShareButtons = false
 showPostNavLinks = true
 
+[[params.socialIcons]]
+name = "homepage"
+url = "https://machunwei.github.io/"
+
+[[params.socialIcons]]
+name = "x"
+url = "https://x.com/chunwei_ma"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/chunwei-ma/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/horsepurve"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://www.instagram.com/ma.chunwei/"
+
+[[params.socialIcons]]
+name = "substack"
+url = "https://chunweima.substack.com/"
+
 [params.homeInfoParams]
 Title = "Geometric Interpretability of Large Language Models"
 Content = "Understanding Large Language Models and Mechanistic Interpretability from a Geometric Standpoint."

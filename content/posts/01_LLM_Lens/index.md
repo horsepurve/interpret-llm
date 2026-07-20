@@ -26,7 +26,7 @@ Like any deep neural network, an LLM has many layers, and each layer produces a 
 {{< figure 
     src="fig_lens/LLM_Lenses.png" 
     alt="LLM Lenses architectural overview" 
-    link="fig_lens//LLM_Lenses.png" 
+    link="fig_lens/LLM_Lenses.png" 
     target="_blank"
     class="center"
     title="Figure 1" 
